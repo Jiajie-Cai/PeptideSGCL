@@ -1,0 +1,35 @@
+[bert]
+between_center_distance: 0.7276355028152466
+within_avg_distance: 0.8997967839241028
+fisher_ratio: 0.8086664853825632
+n_pos: 3380
+n_neg: 3811
+
+[gnn]
+between_center_distance: 0.03161616995930672
+within_avg_distance: 0.23166823387145996
+fisher_ratio: 0.13647175286324464
+n_pos: 3380
+n_neg: 3811
+
+[fused]
+between_center_distance: 0.7283220291137695
+within_avg_distance: 0.9295026063919067
+fisher_ratio: 0.7835610401784103
+n_pos: 3380
+n_neg: 3811
+
+[head_linear1]
+between_center_distance: 4.975584506988525
+within_avg_distance: 0.6403605937957764
+fisher_ratio: 7.769972973333159
+n_pos: 3380
+n_neg: 3811
+
+[logits]
+logits_pos mean=2.8676, std=0.5318
+logits_neg mean=-2.8176, std=0.9472
+
+[prob]
+prob_pos mean=0.9394, std=0.0327
+prob_neg mean=0.0779, std=0.1208
